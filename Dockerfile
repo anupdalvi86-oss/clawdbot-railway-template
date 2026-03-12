@@ -1,7 +1,7 @@
 # Build openclaw from source to avoid npm packaging gaps (some dist files are not shipped).
 FROM node:22-bookworm AS openclaw-build
 
-# Dependencies needed for openclaw build
+# Dependencies needed for openclaw builda
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     git \
