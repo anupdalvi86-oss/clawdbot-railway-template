@@ -1,5 +1,5 @@
 {
-  "id": "browser-api",
+  "id": "browser-api-plugin",
   "name": "Browser API",
   "version": "1.0.0",
   "description": "Calls the external Playwright browser API",
